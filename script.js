@@ -20,7 +20,7 @@ function selectOption(option) {
         // Change text on the "You sure?" button to "Unmaiyava?"
         document.getElementById('You sure?').innerText = 'Unmaiyava?'; 
         // Increase font size of "Yes" button
-         var yesButton = document.getElementById('yes-button');
+        var yesButton = document.getElementById('yes-button');
         var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
         var newSize = parseFloat(currentFontSize) * 1; // Increase font size by  * 1px
         yesButton.style.fontSize = newSize + 'px';
