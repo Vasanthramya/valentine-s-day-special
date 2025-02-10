@@ -13,9 +13,22 @@ function selectOption(option) {
         // Change text on the "No" button to "You sure?"
         document.getElementById('no-button').innerText = 'You sure?'; 
         // Increase font size of "Yes" button
+        document.getElementById('no-button').innerText = 'You sure?'; 
+        // Increase font size of "Yes" button
+        // Change text on the "You sure?" button to "Unmaiyava?"
+        document.getElementById('You sure?').innerText = 'Unmaiyava?'; 
+        // Increase font size of "Yes" button
+        // Change text on the "Unmaiyava?" button to "Chocolate vangi tharen d?"
+        document.getElementById('Unmaiyava?').innerText = 'Chocolate vangi tharen d?'; 
+        // Increase font size of "Yes" button
+        // Change text on the "Chocolate vangi tharen d?" button to "Apro naan azhuven?"
+        document.getElementById('Chocolate vangi tharen d?').innerText = 'Apro naan azhuven?'; 
+        // Increase font size of "Yes" button
+        // Change text on the "Apro naan azhuven?" button to "En chellam la?"
+        document.getElementById('Apro naan azhuven?').innerText = 'En chellam la?'; 
         var yesButton = document.getElementById('yes-button');
         var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
-        var newSize = parseFloat(currentFontSize) * 2; // Increase font size by  * 2px
+        var newSize = parseFloat(currentFontSize) * 1; // Increase font size by  * 1px
         yesButton.style.fontSize = newSize + 'px';
     } else {
         // If neither "Yes" nor "No" was clicked, show an alert message
